@@ -40,7 +40,7 @@ class Spider_Model:
                     self.page += 1
                     self.pages.append(myPage)
                 except:
-                    print "无法链接到糗事百科"
+                    print u"无法链接到糗事百科"
             else:
                 time.sleep(1)
 
